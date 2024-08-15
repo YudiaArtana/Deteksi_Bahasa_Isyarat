@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load the model
-model = tf.keras.models.load_model('model.keras')
+model = tf.keras.models.load_model('model.h5')
 
 # Initialize video capture
 cap = cv2.VideoCapture(0)
